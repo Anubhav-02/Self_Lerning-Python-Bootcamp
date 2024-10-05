@@ -63,6 +63,8 @@
 #     print(chr(i), end=" ")
 #     print(i[25])
 
+print("hello")
+print(2+2)
 
 
 
