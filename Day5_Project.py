@@ -18,21 +18,21 @@ num_symbols = int(input("How many symbols would you like in your password?\n"))
 password_list = []
 
 # Add random letters to the password list
-for _ in range(num_letters):
+for i in range(num_letters):
     password_list.append(random.choice(letters))
 
 # Add random numbers to the password list
-for _ in range(num_numbers):
+for i in range(num_numbers):
     password_list.append(random.choice(numbers))
 
 # Add random symbols to the password list
-for _ in range(num_symbols):
+for i in range(num_symbols):
     password_list.append(random.choice(symbols))
 
 # Shuffle the password list to randomize the order of characters
 random.shuffle(password_list)
 
-# Join the list into a string to form the final password
+# The join() method is used to concatenate (combine) all the characters in password_list into a single string (password).
 password = ''.join(password_list)
 
 print(f"Your generated password is: {password}")
