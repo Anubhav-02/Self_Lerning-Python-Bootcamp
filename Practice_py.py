@@ -63,8 +63,16 @@
 #     print(chr(i), end=" ")
 #     print(i[25])
 
-print("hello")
-print(2+2)
+# print("hello")
+# print(2+2)
+
+
+def addition():
+  total=0
+  for i in range(0,10):
+    total +=i
+    print(total)
+addition()
 
 
 
