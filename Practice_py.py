@@ -67,14 +67,14 @@
 # print(2+2)
 
 
-def addition():
-  total=0
-  for i in range(0,10):
-    total +=i
-    print(total)
-addition()
+# def addition():
+#   total=0
+#   for i in range(0,10):
+#     total +=i
+#     print(total)
+# addition()
 
-
-
-
+x = int(input("Type how many rows do u want to print: "))
+for x in  range(1, x+1):
+  print('*'*x+1)
 
