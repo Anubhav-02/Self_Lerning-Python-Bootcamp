@@ -74,7 +74,12 @@
 #     print(total)
 # addition()
 
-x = int(input("Type how many rows do u want to print: "))
-for x in  range(1, x+1):
-  print('*'*x+1)
+# x = int(input("Type how many rows do u want to print: "))
+# for x in  range(1, x+1):
+#   print('*'*x+1)
+
+def func_input():
+  input("Type")
+func_input()
+
 
